@@ -4,6 +4,8 @@ using UnityEngine.Networking;
 
 public class WebRequestTest : MonoBehaviour
 {
+    [SerializeField] private string URL;
+
     private void Start()
     {
         StartCoroutine(Upload());
@@ -11,23 +13,25 @@ public class WebRequestTest : MonoBehaviour
 
     private IEnumerator Upload()
     {
-        WWWForm form = new WWWForm();
-        form.AddField("sender", "test");
-        form.AddField("message", "hello");
+        string data = "{ \"sender\":\"test\", \"message\":\"hey\" }";
 
-        UnityWebRequest www = UnityWebRequest.Post("https://c868-58-71-199-137.ap.ngrok.io/webhooks/rest/webhook ", form);
-        yield return www.SendWebRequest();
+        // UnityWebRequest request = UnityWebRequest.PostWwwForm(URL, data);
+        UnityWebRequest request = new UnityWebRequest(URL, "POST");
 
-        if (www.result != UnityWebRequest.Result.Success)
+        request.uploadHandler = new UploadHandlerRaw(new System.Text.UTF8Encoding().GetBytes(data));
+        request.downloadHandler = new DownloadHandlerBuffer();
+        request.SetRequestHeader("Content-Type", "application/json");
+
+        yield return request.SendWebRequest();
+
+        if (request.result != UnityWebRequest.Result.Success)
         {
-            Debug.Log(www.error);
-            www.Dispose();
+            Debug.Log(request.error);
+            request.Dispose();
         } else
         {
-            Debug.Log("Form upload complete!");
-            string data = www.downloadHandler.text;
-            Debug.Log(data);
-            www.Dispose();
+            Debug.Log(request.downloadHandler.text);
+            request.Dispose();
         }
     }
 }
