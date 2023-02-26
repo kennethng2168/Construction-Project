@@ -21,9 +21,13 @@ public class WebRequestTest : MonoBehaviour
         if (www.result != UnityWebRequest.Result.Success)
         {
             Debug.Log(www.error);
+            www.Dispose();
         } else
         {
             Debug.Log("Form upload complete!");
+            string data = www.downloadHandler.text;
+            Debug.Log(data);
+            www.Dispose();
         }
     }
 }
