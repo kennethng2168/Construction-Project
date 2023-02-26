@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="top" style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;">
+        <ui:Label text="Chatbot" display-tooltip-when-elided="true" name="title" style="-unity-text-align: upper-center; color: rgb(221, 221, 221); font-size: 72px; -unity-font: url(&apos;project://database/Assets/HurmeGeometricSans4-Black.ttf?fileID=12800000&amp;guid=9c203805c9bc2d04293bc5fbfef4f761&amp;type=3#HurmeGeometricSans4-Black&apos;); -unity-font-definition: initial; -unity-font-style: normal;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="dialogue" style="flex-direction: column-reverse; flex-grow: 1; flex-shrink: 0;" />
+    <ui:VisualElement name="bottom" style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; font-size: 72px;">
+        <ui:TextField picking-mode="Ignore" label="User Input:" mask-character="asds" name="chatbox" style="color: rgb(0, 162, 224); -unity-font: url(&apos;project://database/Assets/HurmeGeometricSans4-Black.ttf?fileID=12800000&amp;guid=9c203805c9bc2d04293bc5fbfef4f761&amp;type=3#HurmeGeometricSans4-Black&apos;); -unity-font-definition: initial;" />
+    </ui:VisualElement>
+</ui:UXML>

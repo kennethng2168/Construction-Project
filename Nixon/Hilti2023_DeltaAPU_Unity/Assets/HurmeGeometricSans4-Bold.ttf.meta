@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8d2ea5ff2d6168445bf0194ec0543434
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hurme Geometric Sans 4
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ecb2a6087547d4344929814e1751cc9c, type: 3}
+  - {fileID: 12800000, guid: 9c203805c9bc2d04293bc5fbfef4f761, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
