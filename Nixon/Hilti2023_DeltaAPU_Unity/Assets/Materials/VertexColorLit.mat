@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_VertexColorLit
+  m_Name: VertexColorLit
   m_Shader: {fileID: -6465566751694194690, guid: 2dd22a4b4b687ae44b27cb2dd2a258f4,
     type: 3}
   m_ValidKeywords: []
