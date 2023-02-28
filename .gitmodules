@@ -1,0 +1,6 @@
+[submodule "Nixon/Hilti2023_DeltaAPU_Unity/Packages/UnityUtil"]
+	path = Nixon/Hilti2023_DeltaAPU_Unity/Packages/UnityUtil
+	url = https://github.com/voxell-tech/UnityUtil.git
+[submodule "Nixon/Hilti2023_DeltaAPU_Unity/Packages/URPVolumetricLighting"]
+	path = Nixon/Hilti2023_DeltaAPU_Unity/Packages/URPVolumetricLighting
+	url = https://github.com/voxell-tech/URPVolumetricLighting.git

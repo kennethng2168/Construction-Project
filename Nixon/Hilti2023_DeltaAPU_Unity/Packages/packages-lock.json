@@ -219,6 +219,12 @@
         "com.unity.xr.interaction.toolkit": "0.9.4-preview"
       }
     },
+    "voxell.urp.volumetriclighting": {
+      "version": "file:URPVolumetricLighting",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
