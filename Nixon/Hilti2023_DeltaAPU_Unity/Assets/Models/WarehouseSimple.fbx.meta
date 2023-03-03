@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: 6ea5a0a263e66ae499bab0f41a3c6284
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BluePaint
+    second: {fileID: 2100000, guid: 3814f8251cb3ac8479fdcd73a3fc93be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling
+    second: {fileID: 2100000, guid: 2343ce0e13da92c46828b7a9986b6800, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 97543ef658cabfa468856465d54b6d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gate_A
+    second: {fileID: 2100000, guid: 94eda175a40a9c447be30e450420348d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gate_B
+    second: {fileID: 2100000, guid: a893411c2b7adc240ac71348b6129629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gate_C
+    second: {fileID: 2100000, guid: 3282d34c378615b48b3b799b90cc90ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 438300ca76cdbb74fb610ed62a71e963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlossyMetal_A
+    second: {fileID: 2100000, guid: d30a51957f17dea4d85463e83fbf768d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlossyMetal_B
+    second: {fileID: 2100000, guid: c5a8eaa7ca079a94a9cc71379f652e8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlossyMetal_C
+    second: {fileID: 2100000, guid: 2c3bfbcfe3f51c845b8366eccaae9ed2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grid
+    second: {fileID: 2100000, guid: 80ae01fac9c00ae48b4ecdd6efb45e34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp
+    second: {fileID: 2100000, guid: d0d7d312151c7aa4ab092f82d44c5819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_A
+    second: {fileID: 2100000, guid: e1d68644c23db1b44b21d00e7038b182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoomWalls
+    second: {fileID: 2100000, guid: 8c9a32e60c857794491d91cadb994bd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhitePaint_A
+    second: {fileID: 2100000, guid: e956728aea266e04aa24673d184d5388, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhitePaint_B
+    second: {fileID: 2100000, guid: 5f3e9147543448a478db6181312ee8a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowPaint
+    second: {fileID: 2100000, guid: 350cf89d37687b4479be1354bd23b38c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Ceiling_A1_Albedo
+    second: {fileID: 2800000, guid: 6c60d314a9167bd458c09f12803b09d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Ceiling_A1_Emissive
+    second: {fileID: 2800000, guid: b564721be957fec4386cbbc8f86bca24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Ceiling_A1_Normal
+    second: {fileID: 2800000, guid: ed2561cb4e9421c4eb88bbd082c8e2ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Floor_A1_Albedo
+    second: {fileID: 2800000, guid: e6557980fb910bd41ae5b8c6ecc7047d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Floor_A1_Normal
+    second: {fileID: 2800000, guid: e9a013a3e64cc904687eb11011efbada, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Gate_A1_Albedo
+    second: {fileID: 2800000, guid: 2acd922ed390b04448bcbc0b1b316a5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Gate_A1_Normal
+    second: {fileID: 2800000, guid: 75bc36ad47731774ebd4618eca0118b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Gate_B_Albedo
+    second: {fileID: 2800000, guid: 2758ca2d6a560534688b42a3f5614c67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Gate_B_Normal
+    second: {fileID: 2800000, guid: 9405cf1eea87ca34ebf192af7484c987, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Gate_C1_Albedo
+    second: {fileID: 2800000, guid: d5372870d0f41d5428b1f88a8369447b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Gate_C1_Normal
+    second: {fileID: 2800000, guid: d7290e9f4211354478e1eb51598fb00c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GlossyMetal_A1_Albedo
+    second: {fileID: 2800000, guid: f15678deef85bfb4d968c393fe6fe1d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GlossyMetal_A1_Normal
+    second: {fileID: 2800000, guid: e6feefbe85de08840ae7066196b41b9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GlossyMetal_B1_Albedo
+    second: {fileID: 2800000, guid: 76b2c1afcc913fb4494d45df523d6912, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GlossyMetal_B1_Normal
+    second: {fileID: 2800000, guid: 567fbf9f6210c534fb72e07ee36849c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GlossyMetal_C1_Albedo
+    second: {fileID: 2800000, guid: d04d0b027edaf2543a67e52a1b8f9e10, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GlossyMetal_C1_Normal
+    second: {fileID: 2800000, guid: 8355df3d1021ac946a1b6988b6ef2f92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Lamp_A1_Albedo
+    second: {fileID: 2800000, guid: 98441e25e9d66c94c8c1bb1127eaa847, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Lamp_A1_Emissive
+    second: {fileID: 2800000, guid: c6623e3f42dc31649b3c9bfe62a1682b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Lamp_A1_Normal
+    second: {fileID: 2800000, guid: ce03e83056203f24eb7b528f15cdde32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Metal_A1_Albedo
+    second: {fileID: 2800000, guid: 8815374578ae6454ea03638d1d218db1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Metal_A1_Normal
+    second: {fileID: 2800000, guid: d6e2865eb9ccbaa49a550b86e132e0e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_RoomWalls_A1_Albedo
+    second: {fileID: 2800000, guid: 744400b9598cc2849ace31c30fcae128, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_RoomWalls_A1_Normal
+    second: {fileID: 2800000, guid: 7ffd30052f925614599339e9c3e7ec29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_WhitePaint_A1_Albedo
+    second: {fileID: 2800000, guid: 7d6da358426587543aa88bbe5586d5fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_WhitePaint_A1_Normal
+    second: {fileID: 2800000, guid: b8b0809785db21845a6d485e13e4afef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_WhitePaint_B1_Albedo
+    second: {fileID: 2800000, guid: b32570b48c6cd2742a18d4895019d6ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_WhitePaint_B1_Normal
+    second: {fileID: 2800000, guid: 6b806c90ead3d4e448f975ddfec6ec3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_YellowPaint_A1_Albedo
+    second: {fileID: 2800000, guid: c2de748d1be3d0b49b4360962fc2546e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_YellowPaint_A1_Normal
+    second: {fileID: 2800000, guid: c25c3fbad84feb0419a0d483781832d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ov_uv_grids_basecolor_1024
+    second: {fileID: 2800000, guid: db4ff82d771167846b97f284d9bf0bce, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
