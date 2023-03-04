@@ -23,7 +23,6 @@ public class ToggleLightRow : MonoBehaviour
             for (int l = 0; l < this.m_Lights[r].Length; l++)
             {
                 this.m_Lights[r][l] = rowParent.GetChild(l).GetComponent<Light>();
-                Debug.Log(this.m_Lights[r][l]);
             }
         }
     }
