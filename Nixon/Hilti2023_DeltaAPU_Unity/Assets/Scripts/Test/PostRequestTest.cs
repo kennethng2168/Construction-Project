@@ -4,7 +4,7 @@ using UnityEngine.Networking;
 
 public class PostRequestTest : MonoBehaviour
 {
-    [SerializeField] private string URL;
+    [SerializeField] private string m_URL;
 
     private void Start()
     {
@@ -16,7 +16,7 @@ public class PostRequestTest : MonoBehaviour
         string data = "{ \"sender\":\"test\", \"message\":\"hey\" }";
 
         // UnityWebRequest request = UnityWebRequest.PostWwwForm(URL, data);
-        UnityWebRequest request = new UnityWebRequest(URL, "POST");
+        UnityWebRequest request = new UnityWebRequest(m_URL, "POST");
 
         request.uploadHandler = new UploadHandlerRaw(new System.Text.UTF8Encoding().GetBytes(data));
         request.downloadHandler = new DownloadHandlerBuffer();

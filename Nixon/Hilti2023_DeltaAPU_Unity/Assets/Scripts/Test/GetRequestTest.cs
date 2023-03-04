@@ -4,17 +4,16 @@ using UnityEngine.Networking;
 
 public class GetRequestTest : MonoBehaviour
 {
-    [SerializeField] private string URL;
-    private Coroutine m_RequestCoroutine;
+    [SerializeField] private string m_URL;
 
     private void Start()
     {
-        this.m_RequestCoroutine = StartCoroutine(GetRequest());
+        this.StartCoroutine(GetRequest());
     }
 
     private IEnumerator GetRequest()
     {
-        UnityWebRequest request = UnityWebRequest.Get(URL);
+        UnityWebRequest request = UnityWebRequest.Get(m_URL);
         yield return request.SendWebRequest();
 
         if (request.result != UnityWebRequest.Result.Success)

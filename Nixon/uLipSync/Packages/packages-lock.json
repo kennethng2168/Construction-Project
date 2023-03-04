@@ -126,7 +126,7 @@
         "com.vrmc.vrmshaders": "0.108.0",
         "com.unity.modules.animation": "1.0.0"
       },
-      "hash": "f4ba5245aff2352ea122e8c73e354eb58f805621"
+      "hash": "1a192d2f93b5a8a07f9906e0552527d06838ada0"
     },
     "com.vrmc.univrm": {
       "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM",
@@ -137,7 +137,7 @@
         "com.vrmc.gltf": "0.108.0",
         "com.unity.ugui": "1.0.0"
       },
-      "hash": "f4ba5245aff2352ea122e8c73e354eb58f805621"
+      "hash": "1a192d2f93b5a8a07f9906e0552527d06838ada0"
     },
     "com.vrmc.vrm": {
       "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10",
@@ -147,7 +147,7 @@
         "com.vrmc.vrmshaders": "0.108.0",
         "com.vrmc.gltf": "0.108.0"
       },
-      "hash": "f4ba5245aff2352ea122e8c73e354eb58f805621"
+      "hash": "1a192d2f93b5a8a07f9906e0552527d06838ada0"
     },
     "com.vrmc.vrmshaders": {
       "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders",
@@ -156,7 +156,7 @@
       "dependencies": {
         "com.unity.modules.imageconversion": "1.0.0"
       },
-      "hash": "f4ba5245aff2352ea122e8c73e354eb58f805621"
+      "hash": "1a192d2f93b5a8a07f9906e0552527d06838ada0"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
