@@ -1,0 +1,66 @@
+version: '3.1'
+intents:
+- affirm
+- bot_challenge
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- query_omnitwin
+- weather
+- city
+- inform
+- inquire
+
+entities:
+  - location
+
+slots:
+  location:
+    type: text
+    mappings:
+    - type: text
+
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_digital_twin:
+  - text: A digital twin is a virtual model of a physical object.
+  - text: A digital twin is a digital representation of an intended or actual real-world physical product, system, or process that serves as the effectively indistinguishable digital counterpart of it for practical purposes, such as simulation, integration, testing, monitoring, and maintenance.
+  - text: A digital twin is a digital representation of an intended or actual real-world physical product, system, or process (a physical twin)
+  utter_omnitwin:
+  - text: OmniTwin is a digital twin integrates with drones, AI, ML and NLP technologies
+  utter_team_members:
+  - text: The members in OmniTwin are Ng Joo Kiat (Leader), Cajun Tai Ka Joon, Cheng Yi Heng, Nabiha and Rohit
+  utter_default:
+  - text: I'm sorry, I don't get you. Can you please further elaborate on it? Thanks.
+  utter_query_location:
+  - text: which city you want to check for?
+  - text: In what location?
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- utter_omnitwin
+- utter_team_members
+- utter_default
+- utter_digital_twin
+- action_weather
+- utter_ask_location
