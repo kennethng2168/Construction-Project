@@ -11,6 +11,8 @@ public class WeatherAPI : MonoBehaviour
     [SerializeField] private string m_APIKey = "edbbd1d7b50f468668e1e376376f730d";
     [SerializeField] private string m_OpenWeatherURL = "http://api.openweathermap.org/data/2.5/weather";
     [SerializeField] private string m_City = "Kuala Lumpur";
+    [Tooltip("In seconds.")] [SerializeField] private float m_UpdateInterval;
+    private float m_IntervalAccum;
 
     [Header("Icon")]
     [SerializeField] private string m_IconURL = "http://openweathermap.org/img/wn/";
@@ -28,6 +30,19 @@ public class WeatherAPI : MonoBehaviour
     private void Start()
     {
         this.StartCoroutine(this.RequestWeatherData());
+        this.m_IntervalAccum = 0.0f;
+    }
+
+    private void Update()
+    {
+        this.m_IntervalAccum += Time.deltaTime;
+
+        if (this.m_IntervalAccum > this.m_UpdateInterval)
+        {
+            Debug.Log("Update Weather");
+            this.StartCoroutine(RequestWeatherData());
+            this.m_IntervalAccum = 0.0f;
+        }
     }
 
     private IEnumerator RequestWeatherData()
